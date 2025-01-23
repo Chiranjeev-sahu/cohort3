@@ -1,5 +1,5 @@
 
-<span style="font-size: 25px;">**Harkirat's 100x Cohort - Progress Tracker**</span>
+# <span style="font-size: 50px;">Harkirat's 100x Cohort - Progress Tracker</span>
 
 This repository documents my journey through Harkirat's 100x Cohort, where I am learning and implementing concepts to level up my skills in programming, problem-solving, and development.
 
