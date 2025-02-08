@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Specifies the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the page responsive -->
+    <title>HTML Cheatsheet Example</title> <!-- Sets the title of the webpage -->
+    <link rel="stylesheet" href="styles.css"> <!-- Links an external CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Defines the font for the page */
+        }
+        .highlight {
+            color: red; /* Sets text color to red */
+            font-weight: bold; /* Makes text bold */
+        }
+        #mainContent {
+            background-color: #f9f9f9; /* Sets a light background color */
+            padding: 20px; /* Adds spacing inside the element */
+            border: 1px solid #ddd; /* Adds a light border around the section */
+        }
+    </style> <!-- Adds internal CSS styling -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header> <!-- Defines the header of the webpage -->
+        <h1 style="color: blue;">Welcome to the HTML Cheatsheet Example</h1> <!-- Main heading with inline styling -->
+        <nav> <!-- Defines a navigation section -->
+            <ul> <!-- Creates an unordered list -->
+                <li><a href="#home" title="Go to Home">Home</a></li> <!-- Link to the home section -->
+                <li><a href="#about" title="Learn About Us">About</a></li> <!-- Link to the about section -->
+                <li><a href="#contact" title="Get in Touch">Contact</a></li> <!-- Link to the contact section -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <section id="mainContent"> <!-- Defines the main content area with an ID -->
+        <article> <!-- Represents an article or independent content -->
+            <h2>Article: The Basics of HTML</h2> <!-- Subheading for the article -->
+            <p class="highlight">HTML stands for HyperText Markup Language and is the backbone of web development.</p> <!-- Highlighted paragraph -->
+        </article>
+
+        <section> <!-- Defines a subsection within the main content -->
+            <h2>Lists in HTML</h2> <!-- Subheading for the lists section -->
+            <h3>Unordered List:</h3> <!-- Sub-subheading for unordered list -->
+            <ul> <!-- Unordered list starts -->
+                <li>HTML</li> <!-- List item 1 -->
+                <li>CSS</li> <!-- List item 2 -->
+                <li>JavaScript</li> <!-- List item 3 -->
+            </ul>
+            <h3>Ordered List:</h3> <!-- Sub-subheading for ordered list -->
+            <ol> <!-- Ordered list starts -->
+                <li>Learn HTML</li> <!-- Ordered item 1 -->
+                <li>Learn CSS</li> <!-- Ordered item 2 -->
+                <li>Learn JavaScript</li> <!-- Ordered item 3 -->
+            </ol>
+        </section>
+
+        <h2>Forms</h2> <!-- Subheading for the forms section -->
+        <form action="/submit" method="POST"> <!-- Defines a form with POST method -->
+            <label for="username">Username:</label><br> <!-- Label for username input -->
+            <input type="text" id="username" name="username" placeholder="Enter your username"><br><br> <!-- Text input for username -->
+            
+            <label for="email">Email:</label><br> <!-- Label for email input -->
+            <input type="email" id="email" name="email" placeholder="Enter your email"><br><br> <!-- Email input -->
+            
+            <label>Gender:</label><br> <!-- Label for radio button group -->
+            <input type="radio" id="male" name="gender" value="male"> <!-- Radio button for Male -->
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female"> <!-- Radio button for Female -->
+            <label for="female">Female</label><br><br>
+            
+            <input type="checkbox" id="subscribe" name="subscribe"> <!-- Checkbox for subscribing -->
+            <label for="subscribe">Subscribe to Newsletter</label><br><br>
+            
+            <button type="submit">Submit</button> <!-- Button to submit the form -->
+        </form>
+
+        <h2>Tables</h2> <!-- Subheading for the table section -->
+        <table border="1"> <!-- Creates a table with borders -->
+            <tr> <!-- Table row -->
+                <th>Name</th> <!-- Table header cell -->
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+            <tr> <!-- Another table row -->
+                <td>Alice</td> <!-- Table data cell -->
+                <td>25</td>
+                <td>New York</td>
+            </tr>
+            <tr> <!-- Another table row -->
+                <td>Bob</td>
+                <td>30</td>
+                <td>San Francisco</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Multimedia Section -->
+    <section> <!-- Defines a multimedia section -->
+        <h2>Multimedia</h2> <!-- Subheading for multimedia -->
+        <h3>Video:</h3> <!-- Sub-subheading for video -->
+        <video width="320" height="240" controls> <!-- Embeds a video -->
+            <source src="video.mp4" type="video/mp4"> <!-- Video source -->
+            Your browser does not support the video tag.
+        </video>
+        <h3>Audio:</h3> <!-- Sub-subheading for audio -->
+        <audio controls> <!-- Embeds an audio player -->
+            <source src="audio.mp3" type="audio/mpeg"> <!-- Audio source -->
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <!-- New Tags -->
+    <div> <!-- Div used as a generic container -->
+        <p>Welcome to this section! <span style="color: green;">This is a highlighted text using span.</span></p>
+    </div>
+    <h3>Heading Demo</h3> <!-- Demonstrates heading level -->
+    <b>This is bold text.</b> <i>This is italicized text.</i> <u>This is underlined text.</u><br> <!-- Bold, italic, underline -->
+
+    <a href="https://example.com" target="_blank">Visit Example.com</a> <!-- Hyperlink -->
+    <img src="https://via.placeholder.com/150" alt="Example Image"> <!-- Example image -->
+
+    <!-- Footer -->
+    <footer> <!-- Defines the footer section -->
+        <p>&copy; 2025 My Website</p> <!-- Copyright symbol -->
+    </footer>
+</body>
+</html>
